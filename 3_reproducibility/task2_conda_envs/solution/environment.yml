@@ -1,0 +1,7 @@
+name: reproducibility-env
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+      - scikit-learn==1.0
+      - numpy==1.21
